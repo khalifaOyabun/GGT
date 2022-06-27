@@ -1,0 +1,60 @@
+#home,
+#contact,
+#about {
+  height: 100vh;
+  padding-top: 100px;
+}
+
+.popUp {
+  display: none; 
+  width: 100vw;
+  height: 100vh;
+}
+
+.popUp.active {
+  display: block;
+}
+
+.background  {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  background: #333333d3;
+  top: 0;
+}
+
+.boite {
+  width: 95%;
+  max-width: 500px;
+  min-width: 300px;
+  padding: 30px;
+  background-color: #fff;
+  border-radius: 5px;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.toggler-close {
+  position: relative;
+  top: 250%;
+  padding: 8px 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.boite h1 {
+  margin-bottom: 10px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: 500;
+}
+
+.boite p {
+  line-height: 1.4;
+  margin-bottom: 5px;
+}
